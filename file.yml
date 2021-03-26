@@ -1,0 +1,11 @@
+- hosts: 192.168.43.150
+  vars_prompt: 
+      - name: user_name
+        prompt: "enter your name"
+        private: no
+  roles: 
+  - role: "apache-web"
+  
+- hosts: 192.168.43.254
+  roles:
+  - role: "haproxy"
