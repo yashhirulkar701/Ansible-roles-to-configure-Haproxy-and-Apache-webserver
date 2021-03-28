@@ -1,0 +1,20 @@
+
+[apache-web]
+192.168.43.150 ansible_user=root ansible_ssh_pass=redhat ansible_connection=ssh
+
+
+[haproxy]
+192.168.43.254 ansible_user=root ansible_ssh_pass=redhat ansible_connection=ssh
+
+
+
+
+
+
+
+
+
+
+
+
+
